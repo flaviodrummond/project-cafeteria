@@ -19,10 +19,14 @@
     --cor-brown: #604829;
     --cor-gray: #666;
     --cor-light-gray: #ACACAC;
-    
+
 }
 
-.container-parallax1, .container-parallax2, .container-parallax3, .container-parallax4 {
+.container-parallax1,
+.container-parallax2,
+.container-parallax3,
+.container-parallax4,
+.container-parallax5 {
 
     position: relative;
     background-position: center;
@@ -56,7 +60,7 @@ header {
 
 }
 
-.top a  {
+.top a {
 
     margin-right: 20px;
     font-size: 18px;
@@ -65,7 +69,7 @@ header {
     text-shadow: 3px 5px 2px #000000;
     letter-spacing: 2px;
     color: var(--cor-beige);
-    
+
 }
 
 .container-parallax1 {
@@ -86,7 +90,7 @@ header {
     left: 0;
     text-align: center;
     font-weight: 400;
-    
+
 
 }
 
@@ -101,7 +105,8 @@ header {
 
     font-family: "Oswald", sans-serif;
     font-size: 18px;
-    color: var(--cor-beige);    
+    color: var(--cor-beige);
+    margin-bottom: 30px;    
 
 }
 
@@ -111,10 +116,14 @@ header {
     font-size: 16px;
     color: var(--cor-gray);
     background-color: var(--cor-white);
+    max-width: 1024px;
+    padding: 0px 20px;
+    margin: 0 auto;
 
 }
 
-.container-parallax2 h3, .container-parallax3 h3 {
+.container-parallax2 h3,
+.container-parallax3 h3 {
 
     font-family: "Fraunces", serif;
     font-size: 24px;
@@ -184,25 +193,115 @@ iframe {
     left: 0;
     margin: auto;
     background-color: var(--cor-brown);
+
+
+}
+
+.contato p {
+
     color: var(--cor-white);
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
     line-height: 36px;
     text-shadow: 0px 6px 8px #000000;
     text-align: center;
 
 }
 
-#horarios h2 {
+.text {
 
-    font-family: "Oswald", sans-serif;
-    font-size: 18px;
+    padding: 80px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    color: var(--cor-light-gray);
 
 }
 
-#horarios ul {
+.container-parallax5 {
+
+    height: 85vh;
+    background-image: url(assets/cafeteria.jpg);
+
+}
+
+
+.container-parallax5 h2 {
+
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    position: absolute;
+    margin: 0 auto;
+    top: 10%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    letter-spacing: 8px;
+    color: var(--cor-white);
+
+}
+
+.list {
 
     font-family: "Oswald", sans-serif;
     font-size: 16px;
+    max-width: 768px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 10%;
+    right: 0;
+    left: 0;
+    list-style: none;
+    color: var(--cor-white);
+    
 
+}
+
+li {
+
+    position: relative;
+
+}
+
+.list li h3 {
+
+    margin-bottom: 20px;
+
+}
+
+.list li div {
+
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    background-color: var(--cor-light-gray);
+    top: 50%;
+    right: 0;
+    left: 0;
+
+}
+
+.list li p, span {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+
+}
+
+span {
+
+    color: var(--cor-beige);
+
+}
+
+.list li p {
+ 
+    color: var(--cor-light-gray);
+    
 }
 
 footer {
@@ -211,11 +310,33 @@ footer {
     font-size: 16px;
     background-color: var(--cor-black);
     color: var(--cor-white);
+    position: relative;
+    padding: 20px 0;
+    line-height: 34px;
+    font-weight: 600;
+    text-align: center;
 
 }
 
 footer .name {
 
-    color: var(--cor-beige);    
+    color: var(--cor-beige);
+
+}
+
+footer .seta {
+
+    background-image: url(assets/seta-para-cima.png);
+    background-size: cover;
+    background-position: center;
+    background-color: var(--cor-beige);
+    border-radius: 4px;
+
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
 
 }
